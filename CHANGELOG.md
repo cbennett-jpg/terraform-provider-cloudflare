@@ -1,5 +1,27 @@
 # Changelog
 
+## 5.19.1 (2026-04-30)
+
+Full Changelog: [v5.19.0...v5.19.1](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.19.0...v5.19.1)
+
+### Features
+
+* add user_group and user_group_members acceptance tests + custom delete ([7f2420e](https://github.com/cloudflare/terraform-provider-cloudflare/commit/7f2420e4ff30913fbccd781daec2fefe81d58153))
+
+
+### Bug Fixes
+
+* **iam:** tokens migrations ([52c5675](https://github.com/cloudflare/terraform-provider-cloudflare/commit/52c5675f26280d959f744105ef499bd14512153c))
+* **list_item:** ambigous schema while upgrade ([8d75670](https://github.com/cloudflare/terraform-provider-cloudflare/commit/8d756709f38ebe663fc803f60d9a62ac6c56c022))
+* **zero_trust_access_group:** fix v4 migration of same name ([918f9b6](https://github.com/cloudflare/terraform-provider-cloudflare/commit/918f9b6b7fcbd1e7968eeeb2ba11b838f0cc5500))
+
+
+### Chores
+
+* unskip rate limited test for future ([5f785f9](https://github.com/cloudflare/terraform-provider-cloudflare/commit/5f785f9d60dacd889e2b8ab904b714c994971fef))
+* **zone_settings:** document available settings ([26711da](https://github.com/cloudflare/terraform-provider-cloudflare/commit/26711da0255734b93c1e5b1543aa736f6c6444a9))
+* **zone_settings:** document available settings dynamically ([a885ddc](https://github.com/cloudflare/terraform-provider-cloudflare/commit/a885ddc027f9e53f76d4d9827540a0577c2e1f82))
+
 ## 5.19.0 (2026-04-24)
 
 Full Changelog: [v5.18.0...v5.19.0](https://github.com/cloudflare/terraform-provider-cloudflare/compare/v5.18.0...v5.19.0)
